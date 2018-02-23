@@ -1,0 +1,25 @@
+{
+  "name": "simple",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^1.0.3",
+    "koa": "^2.4.1",
+    "koa-bodyparser": "^4.2.0",
+    "koa-csrf": "^3.0.6",
+    "koa-ejs": "^4.1.0",
+    "koa-passport": "^4.0.1",
+    "koa-router": "^7.3.0",
+    "koa-session": "latest",
+    "koa-static": "^4.0.2",
+    "mongoose": "^4.13.7",
+    "passport-local": "^1.0.0"
+  }
+}
